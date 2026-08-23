@@ -14,6 +14,15 @@
 
   document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
 
+  document.querySelectorAll('.footer-links').forEach(footer => {
+    if (!footer.querySelector('a[href="/terms/"]')) {
+      const legal = document.createElement('a');
+      legal.href = '/terms/';
+      legal.textContent = 'Terms & Privacy';
+      footer.appendChild(legal);
+    }
+  });
+
   document.querySelectorAll('.migration-form').forEach(form => {
     form.addEventListener('submit', e => e.preventDefault());
   });
@@ -21,27 +30,18 @@
   const badge = document.querySelector('[data-next-service]');
   if (badge) {
     const tz = 'America/New_York';
-    const formatter = new Intl.DateTimeFormat('en-US', {timeZone: tz, weekday:'short', hour:'numeric', minute:'2-digit', hour12:true});
-    const now = new Date();
-    const schedules = [
-      {day:0,hour:9,label:'Sunday Service'},
-      {day:2,hour:15,label:'Midweek Service'},
-      {day:4,hour:15,label:'Midweek Service'}
-    ];
-    const parts = new Intl.DateTimeFormat('en-US',{timeZone:tz,weekday:'short',hour:'numeric',hourCycle:'h23'}).formatToParts(now);
-    const dayNames=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-    const today=dayNames.indexOf(parts.find(p=>p.type==='weekday').value);
-    const hour=Number(parts.find(p=>p.type==='hour').value);
-    let best=null;
-    schedules.forEach(s=>{
-      let days=(s.day-today+7)%7;
-      if(days===0 && hour>=s.hour+4) days=7;
-      const score=days*24+(s.hour-hour);
-      if(!best || score<best.score) best={...s,score};
+    const parts = new Intl.DateTimeFormat('en-US', {timeZone:tz,weekday:'short',hour:'numeric',hourCycle:'h23'}).formatToParts(new Date());
+    const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+    const day = days.indexOf(parts.find(p => p.type === 'weekday').value);
+    const hour = Number(parts.find(p => p.type === 'hour').value);
+    const services = [{day:0,hour:9,label:'Sunday · 9:00 AM ET'},{day:2,hour:15,label:'Tuesday · 3:00 PM ET'},{day:4,hour:15,label:'Thursday · 3:00 PM ET'}];
+    let next = null;
+    services.forEach(s => {
+      let deltaDays = (s.day - day + 7) % 7;
+      if (deltaDays === 0 && hour >= s.hour + 4) deltaDays = 7;
+      const score = deltaDays * 24 + (s.hour - hour);
+      if (!next || score < next.score) next = {...s, score};
     });
-    if(best){
-      const date=new Date(now.getTime()+Math.max(0,best.score)*3600000);
-      badge.textContent=`Next: ${best.label} · ${formatter.format(date)} ET`;
-    }
+    if (next) badge.textContent = `Next Service · ${next.label}`;
   }
 })();
