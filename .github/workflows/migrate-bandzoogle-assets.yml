@@ -47,3 +47,5 @@ jobs:
           fi
           git commit -m "Archive Bandzoogle site images"
           git push
+
+# Trigger revision: workflow now existed on main before this push.
