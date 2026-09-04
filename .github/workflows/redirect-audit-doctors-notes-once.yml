@@ -1,0 +1,59 @@
+name: Redirect audit Doctor's Notes once
+
+on:
+  push:
+    branches:
+      - native-doctors-notes-v1
+    paths:
+      - ".github/workflows/redirect-audit-doctors-notes-once.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Test legacy routes against Cloudflare preview
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="https://native-doctors-notes-v1.dr-omeb-website.pages.dev"
+
+          declare -a cases=(
+            "/blog/blog/7824180/how-tiktok-livestreaming-rewired-my-marketing-brain|/blog/how-tiktok-livestreaming-rewired-my-marketing-brain/"
+            "/blog/blog/7805785/i-gave-a-man-free-marketing-advice-he-blocked-me|/blog/nobody-owes-you-attention/"
+            "/blog/blog/7770237/my-unpublished-2019-phd-dissertation-still-holds-up-but-i-never-saw-this-coming|/blog/streaming-royalties-better-room/"
+            "/blog/blog/7766514/i-spent-283-on-tiktok-ads-so-you-don-t-have-to-here-s-what-the-algorithm-taught-me-about-emotional|/blog/tiktok-ads-experiment/"
+            "/blog/blog/7762077/your-brand-is-losing-a-war-for-attention-kiss-figured-out-how-to-win-it-50-years-ago|/blog/kiss-war-for-attention/"
+            "/blog/blog/7758142/why-ai-belongs-in-the-hands-of-creative-people-and-why-creatives-need-to-stop-fearing-it|/blog/ai-does-not-replace-taste/"
+            "/blog/blog/7753004/how-i-made-a-500k-music-video-for-almost-nothing-and-why-ozzy-would-approve|/blog/ai-music-video-independent-artist/"
+            "/blogs/diary-of-a-rock-n-roll-doctor|/blog/"
+          )
+
+          failures=0
+          for entry in "${cases[@]}"; do
+            source_path="${entry%%|*}"
+            destination_path="${entry#*|}"
+            for suffix in "" "/"; do
+              request_url="${base}${source_path}${suffix}"
+              result="$(curl --retry 4 --retry-all-errors --max-time 30 -sS -L -o /dev/null -w '%{http_code}|%{url_effective}' "$request_url")"
+              status="${result%%|*}"
+              effective="${result#*|}"
+              expected="${base}${destination_path}"
+              printf '%s -> %s (%s)\n' "$request_url" "$effective" "$status"
+              if [[ "$status" != "200" || "$effective" != "$expected" ]]; then
+                echo "FAIL: expected ${expected} with HTTP 200"
+                failures=$((failures + 1))
+              fi
+            done
+          done
+
+          if (( failures > 0 )); then
+            echo "${failures} redirect checks failed."
+            exit 1
+          fi
+          echo "All 16 redirect variants resolved to the intended native pages."
