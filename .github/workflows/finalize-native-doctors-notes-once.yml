@@ -1,0 +1,46 @@
+name: Finalize native Doctor's Notes once
+
+on:
+  push:
+    branches:
+      - native-doctors-notes-v1
+    paths:
+      - ".github/workflows/finalize-native-doctors-notes-once.yml"
+      - "scripts/.finalize-doctors-notes-once.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-native-doctors-notes-v1
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out review branch
+        uses: actions/checkout@v4
+        with:
+          ref: native-doctors-notes-v1
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate, polish and validate the native publication
+        run: python scripts/.finalize-doctors-notes-once.py
+
+      - name: Commit the validated review build
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Build native Doctor's Notes launch section"
+          git push origin HEAD:native-doctors-notes-v1
