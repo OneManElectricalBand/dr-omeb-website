@@ -34,6 +34,40 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Normalize staged generator payload
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+
+          first_path = Path('scripts/.doctors-notes-payload-1.txt')
+          other_paths = [Path(f'scripts/.doctors-notes-payload-{i}.txt') for i in range(2, 6)]
+          expected_length = 8500
+          expected_sha = '994ce5736e6db3cf3d1d768120d60c18d87610961555d3781faa65730c2ae6b1'
+          first = first_path.read_text(encoding='utf-8')
+          tail = ''.join(path.read_text(encoding='utf-8') for path in other_paths)
+          current = first + tail
+
+          if hashlib.sha256(current.encode()).hexdigest() == expected_sha:
+              print('Staged payload already matches its checksum.')
+              raise SystemExit(0)
+
+          extra = len(first) - expected_length
+          if extra <= 0:
+              raise SystemExit('The staged first payload segment is shorter than expected.')
+
+          for offset in range(len(first) - extra + 1):
+              candidate_first = first[:offset] + first[offset + extra:]
+              candidate = candidate_first + tail
+              if hashlib.sha256(candidate.encode()).hexdigest() == expected_sha:
+                  first_path.write_text(candidate_first, encoding='utf-8')
+                  print(f'Removed {extra} duplicated staging characters at offset {offset}.')
+                  break
+          else:
+              raise SystemExit('Could not restore the checksum-verified payload.')
+          PY
+
       - name: Generate native publication
         run: python scripts/.generate-doctors-notes-once.py
 
@@ -44,7 +78,6 @@ jobs:
           from __future__ import annotations
 
           import json
-          import re
           import xml.etree.ElementTree as ET
           from html.parser import HTMLParser
           from pathlib import Path
@@ -141,12 +174,8 @@ jobs:
               for href in parser.links:
                   if not href.startswith('/blog/') or href in {'/blog/', '/blog/rss.xml'}:
                       continue
-                  parsed = urlparse(href)
-                  target = ROOT / parsed.path.lstrip('/')
-                  if target.suffix:
-                      exists = target.exists()
-                  else:
-                      exists = (target / 'index.html').exists()
+                  target = ROOT / urlparse(href).path.lstrip('/')
+                  exists = target.exists() if target.suffix else (target / 'index.html').exists()
                   if not exists:
                       errors.append(f'{path}: broken internal blog link: {href}')
 
