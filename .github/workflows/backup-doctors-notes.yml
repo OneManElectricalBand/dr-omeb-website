@@ -36,7 +36,19 @@ jobs:
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4 markdownify
 
       - name: Crawl and back up Doctor's Notes
+        id: crawl
+        continue-on-error: true
         run: python scripts/backup_doctors_notes.py
+
+      - name: Show crawler report
+        if: always()
+        shell: bash
+        run: |
+          if [[ -f archive/doctors-notes/backup-report.md ]]; then
+            cat archive/doctors-notes/backup-report.md
+          else
+            echo "The crawler did not create a report."
+          fi
 
       - name: Validate the backup
         shell: bash
