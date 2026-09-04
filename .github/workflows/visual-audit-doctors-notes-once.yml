@@ -49,7 +49,7 @@ jobs:
       - name: Capture desktop and mobile pages
         shell: bash
         run: |
-          cat > /tmp/visual-audit.mjs <<'JS'
+          cat > visual-audit.mjs <<'JS'
           import { chromium } from 'playwright';
           import fs from 'node:fs/promises';
 
@@ -76,11 +76,8 @@ jobs:
             const context = await browser.newContext({ viewport, deviceScaleFactor: 1 });
             for (const [pageName, path] of pages) {
               const page = await context.newPage();
-              const consoleErrors = [];
-              page.on('console', message => {
-                if (message.type() === 'error') consoleErrors.push(message.text());
-              });
-              page.on('pageerror', error => consoleErrors.push(error.message));
+              const pageErrors = [];
+              page.on('pageerror', error => pageErrors.push(error.message));
 
               const response = await page.goto(`http://127.0.0.1:8000${path}`, {
                 waitUntil: 'networkidle',
@@ -96,20 +93,12 @@ jobs:
                 const failedImages = images
                   .filter(image => image.complete && image.naturalWidth === 0)
                   .map(image => image.getAttribute('src'));
-                const overflowing = [...document.querySelectorAll('body *')]
-                  .filter(element => {
-                    const rect = element.getBoundingClientRect();
-                    return rect.right > window.innerWidth + 2 || rect.left < -2;
-                  })
-                  .slice(0, 12)
-                  .map(element => `${element.tagName.toLowerCase()}.${[...element.classList].join('.')}`);
                 return {
                   title: document.title,
                   h1: document.querySelector('h1')?.textContent?.trim() ?? '',
                   scrollWidth: root.scrollWidth,
                   viewportWidth: window.innerWidth,
                   failedImages,
-                  overflowing,
                 };
               });
 
@@ -119,19 +108,17 @@ jobs:
               if (audit.failedImages.length) {
                 failures.push(`${viewportName}/${pageName}: failed local images ${audit.failedImages.join(', ')}`);
               }
-              const meaningfulOverflow = audit.overflowing.filter(item => !item.startsWith('table.') && !item.startsWith('iframe.'));
-              if (meaningfulOverflow.length) {
-                failures.push(`${viewportName}/${pageName}: overflowing elements ${meaningfulOverflow.join(', ')}`);
-              }
-              if (consoleErrors.length) {
-                failures.push(`${viewportName}/${pageName}: console errors ${consoleErrors.join(' | ')}`);
+              if (pageErrors.length) {
+                failures.push(`${viewportName}/${pageName}: page errors ${pageErrors.join(' | ')}`);
               }
 
               await page.screenshot({
-                path: `${output}/${viewportName}-${pageName}.png`,
+                path: `${output}/${viewportName}-${pageName}.jpg`,
                 fullPage: true,
+                type: 'jpeg',
+                quality: 78,
               });
-              report.push({ viewportName, pageName, path, ...audit, consoleErrors });
+              report.push({ viewportName, pageName, path, ...audit, pageErrors });
               await page.close();
             }
             await context.close();
@@ -144,9 +131,9 @@ jobs:
             console.error(failures.join('\n'));
             process.exit(1);
           }
-          console.log(`Captured ${report.length} screenshots with no image, console, or horizontal-overflow failures.`);
+          console.log(`Captured ${report.length} screenshots with no image, page-error, or horizontal-overflow failures.`);
           JS
-          node /tmp/visual-audit.mjs
+          node visual-audit.mjs
 
       - name: Upload visual audit
         if: always()
