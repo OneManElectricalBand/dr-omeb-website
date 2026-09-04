@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Test legacy routes against Cloudflare preview
+      - name: Test slash and non-slash legacy routes against Cloudflare preview
         shell: bash
         run: |
           set -euo pipefail
