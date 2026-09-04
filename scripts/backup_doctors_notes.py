@@ -322,6 +322,10 @@ def clean_body_html(container: Tag, title: str) -> str:
     for tag in fragment.find_all(["script", "style", "noscript", "nav", "footer", "header", "form", "button"]):
         tag.decompose()
     for tag in list(fragment.find_all(True)):
+        # Decomposing a parent leaves its former children in this prebuilt list
+        # with attrs=None. Skip those detached nodes before calling Tag.get().
+        if tag.attrs is None:
+            continue
         descriptor = " ".join(
             [tag.get("id", ""), " ".join(tag.get("class", []))]
         )

@@ -1,0 +1,759 @@
+{
+  "source_archive": "https://onemanelectricalband.com/blogs/diary-of-a-rock-n-roll-doctor",
+  "generated_utc": "2026-09-04T10:21:29Z",
+  "posts_discovered": 22,
+  "posts_backed_up": 22,
+  "unique_images_in_backup": 45,
+  "archive_errors": [],
+  "post_errors": [],
+  "posts": [
+    {
+      "post_id": "7824180",
+      "title": "How TikTok Livestreaming Rewired My Marketing Brain",
+      "published_date": "2026-08-10",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7824180/how-tiktok-livestreaming-rewired-my-marketing-brain",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7824180/how-tiktok-livestreaming-rewired-my-marketing-brain",
+      "slug": "how-tiktok-livestreaming-rewired-my-marketing-brain",
+      "markdown_path": "archive/doctors-notes/posts/2026-08-10-7824180-how-tiktok-livestreaming-rewired-my-marketing-brain.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2026-08-10-7824180-how-tiktok-livestreaming-rewired-my-marketing-brain.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/cb6cff696c44e9138f4b1f988e23fd771eb20cb4/original/chatgpt-image-aug-10-2026-08-32-02-am.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/chatgpt-image-aug-10-2026-08-32-02-am--1264f8fb6b.png",
+          "backup_path": "archive/doctors-notes/images/9e8be675bbba-chatgpt-image-aug-10-2026-08-32-02-am.png",
+          "bytes": 1908002,
+          "sha256": "9e8be675bbbaad0c1b039ae42e8b9de7244d800c664f1dd12eb2da48c08cb751"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/72b3f4ca8831af6254e7ce819a376d3840cbcf5b/original/chatgpt-image-aug-10-2026-09-31-04-am.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/chatgpt-image-aug-10-2026-09-31-04-am--54a925db40.png",
+          "backup_path": "archive/doctors-notes/images/41177861c425-chatgpt-image-aug-10-2026-09-31-04-am.png",
+          "bytes": 2863896,
+          "sha256": "41177861c4258e5ad25e5276c0a8df08c2ef893bc799f681ebd5e2151311c0e3"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/3123c689ca9b6c8a3dd421ed41179738849ad82f/original/image.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/image--1bbb9d4a98.png",
+          "backup_path": "archive/doctors-notes/images/e6e00c50c4df-image.png",
+          "bytes": 1376546,
+          "sha256": "e6e00c50c4df30da5cde1b9bd0cfe47d80a030d3d804259835281370b67da0ea"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/e38c4a66c3ef1c5fd05931b787962f1e30d8880c/original/image.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/image--1de6cb2612.png",
+          "backup_path": "archive/doctors-notes/images/22ca0aafe2d7-image.png",
+          "bytes": 1290786,
+          "sha256": "22ca0aafe2d7c9682c8534ddf78882d1fd36ec080b48db6448f38ebe14c7f721"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/86561cdb51812e47f5f2671d0e28d25456de3278/original/image.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/image--745893377f.png",
+          "backup_path": "archive/doctors-notes/images/d5df8da6c2d8-image.png",
+          "bytes": 1594552,
+          "sha256": "d5df8da6c2d808c4cca9ca59e1967f7f3f0cb15ce202d924b616eb7e3b431df7"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/6eb94496c74c143e49b6c92f931d07563bf0a9d9/original/image.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/image--bbd71561a6.png",
+          "backup_path": "archive/doctors-notes/images/dd3a7fccb27d-image.png",
+          "bytes": 1413973,
+          "sha256": "dd3a7fccb27dba5383712507725b5e453999232f93eebc62211d82ebc92d9c35"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/b118c8711f30135ecb4c7ca9aa69e720829c4834/original/image.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/image--cb69a67cf6.png",
+          "backup_path": "archive/doctors-notes/images/bead1f07b13b-image.png",
+          "bytes": 1343302,
+          "sha256": "bead1f07b13bc6f85c55a9b590bd516d1d454e6b69892f1d0a076081ee016437"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7805785",
+      "title": "I Gave a Man Free Marketing Advice. He Blocked Me.",
+      "published_date": "2026-07-10",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7805785/i-gave-a-man-free-marketing-advice-he-blocked-me",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7805785/i-gave-a-man-free-marketing-advice-he-blocked-me",
+      "slug": "i-gave-a-man-free-marketing-advice-he-blocked-me",
+      "markdown_path": "archive/doctors-notes/posts/2026-07-10-7805785-i-gave-a-man-free-marketing-advice-he-blocked-me.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2026-07-10-7805785-i-gave-a-man-free-marketing-advice-he-blocked-me.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/54d2d01fea653ac33d3ce80090c35f1e563c5bde/original/he-blocked-me.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/he-blocked-me--cfe53f9e9e.png",
+          "backup_path": "archive/doctors-notes/images/f9fe8c4c21b5-he-blocked-me.png",
+          "bytes": 1989334,
+          "sha256": "f9fe8c4c21b5e6ac93d68b5576b927a99f719d05fb1661744833b44bba21cd3c"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7770237",
+      "title": "My Unpublished 2019 PhD Dissertation Still Holds Up But I Never Saw This Coming...",
+      "published_date": "2026-05-21",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7770237/my-unpublished-2019-phd-dissertation-still-holds-up-but-i-never-saw-this-coming",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7770237/my-unpublished-2019-phd-dissertation-still-holds-up-but-i-never-saw-this-coming",
+      "slug": "my-unpublished-2019-phd-dissertation-still-holds-up-but-i-never-saw-this-coming",
+      "markdown_path": "archive/doctors-notes/posts/2026-05-21-7770237-my-unpublished-2019-phd-dissertation-still-holds-up-but-i-never-saw-this-coming.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2026-05-21-7770237-my-unpublished-2019-phd-dissertation-still-holds-up-but-i-never-saw-this-coming.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/5fcf01c03e496ad799bfde0e82567c5579f300d2/original/ai-flood-stat-card.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/ai-flood-stat-card--9e3714cc8a.png",
+          "backup_path": "archive/doctors-notes/images/6ecd0deaaaa4-ai-flood-stat-card.png",
+          "bytes": 221802,
+          "sha256": "6ecd0deaaaa4ce9c5f9e656e496510e61f7776a78cc3646b60c22e4acf699aac"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/2d09fa294e044a0dd0c7cda5654a3eeddb66027a/original/change-the-room.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/change-the-room--177292115b.png",
+          "backup_path": "archive/doctors-notes/images/cbe42a964ca5-change-the-room.png",
+          "bytes": 6008931,
+          "sha256": "cbe42a964ca5a70f703ef0b8dbee948e742633c540666789953a832442df16c9"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/95bc0f6d1b47dc814195bcbd4156c5bead4c3174/original/header-image.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/header-image--cb9aec7b02.png",
+          "backup_path": "archive/doctors-notes/images/5c0b56c0ad38-header-image.png",
+          "bytes": 6925169,
+          "sha256": "5c0b56c0ad388c1609fc36e2286223ad1939edde47c6e3baadc3e9c3d8e4e5f4"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/6e34d4b6871296659858f1ec68574ec94b8bf64d/original/the-coins-are-dropping.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/the-coins-are-dropping--dc33d5ecbe.png",
+          "backup_path": "archive/doctors-notes/images/f67dd9ce752c-the-coins-are-dropping.png",
+          "bytes": 5784983,
+          "sha256": "f67dd9ce752cabc053a71510fb45dbea663bf8f41d52eb1f9fc1a23e040611fe"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/1a458982551c764983d4adcc21aadf9a8e3c7502/original/spotify-paid-me-zero.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/48685b4a6b2b-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 103290,
+          "sha256": "48685b4a6b2bc46b3b5254c604836e22d1642d73a92c5d1bdc85f7adb5c7486a"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7766514",
+      "title": "I Spent $283 on TikTok Ads So You Don't Have To. Here's What the Algorithm Taught Me About Emotional Framing.",
+      "published_date": "2026-05-14",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7766514/i-spent-283-on-tiktok-ads-so-you-don-t-have-to-here-s-what-the-algorithm-taught-me-about-emotional",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7766514/i-spent-283-on-tiktok-ads-so-you-don-t-have-to-here-s-what-the-algorithm-taught-me-about-emotional",
+      "slug": "i-spent-283-on-tiktok-ads-so-you-don-t-have-to-here-s-what-the-algorithm-taught-me-about-emotional",
+      "markdown_path": "archive/doctors-notes/posts/2026-05-14-7766514-i-spent-283-on-tiktok-ads-so-you-don-t-have-to-here-s-what-the-algorithm-taught-me-about-emotional.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2026-05-14-7766514-i-spent-283-on-tiktok-ads-so-you-don-t-have-to-here-s-what-the-algorithm-taught-me-about-emotional.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/dae6b751751c5b3772784352391133a95bef743b/original/image.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/image--02c77e98f9.png",
+          "backup_path": "archive/doctors-notes/images/1bc4b628d8e1-image.png",
+          "bytes": 1698791,
+          "sha256": "1bc4b628d8e1068ef63febcccdec3b205ae91868828a56876e706bd072a2b4e2"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/8b63d3ed6943dad8b0df30caff1d8c3ee38545b9/original/image.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/image--2d0d31bf9f.png",
+          "backup_path": "archive/doctors-notes/images/1c822e89aba6-image.png",
+          "bytes": 2524824,
+          "sha256": "1c822e89aba6fe4458a31494ca8183db4891233eba52aae84e7fba4031f4e662"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/c54415c57a6381d0d5fc85345a5b6f84f0cefe62/original/image.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/image--7dab92fdca.png",
+          "backup_path": "archive/doctors-notes/images/732a776645f1-image.png",
+          "bytes": 2546686,
+          "sha256": "732a776645f1dff296ca4bad9565b7e6ac76da8805e41c7e85a43d36af2247e5"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/646c67faa1cbb7bad7087637d0adebd6ba5869b4/original/tiktok-spark-article.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/tiktok-spark-article--6863b349ed.png",
+          "backup_path": "archive/doctors-notes/images/343b7c91b817-tiktok-spark-article.png",
+          "bytes": 1757777,
+          "sha256": "343b7c91b817e8c76af0752af131d3ba5d1e4b889099346d3759ccc4722cd83f"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7762077",
+      "title": "Your Brand Is Losing a War for Attention: KISS Figured Out How to Win It 50 Years Ago",
+      "published_date": "2026-05-07",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7762077/your-brand-is-losing-a-war-for-attention-kiss-figured-out-how-to-win-it-50-years-ago",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7762077/your-brand-is-losing-a-war-for-attention-kiss-figured-out-how-to-win-it-50-years-ago",
+      "slug": "your-brand-is-losing-a-war-for-attention-kiss-figured-out-how-to-win-it-50-years-ago",
+      "markdown_path": "archive/doctors-notes/posts/2026-05-07-7762077-your-brand-is-losing-a-war-for-attention-kiss-figured-out-how-to-win-it-50-years-ago.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2026-05-07-7762077-your-brand-is-losing-a-war-for-attention-kiss-figured-out-how-to-win-it-50-years-ago.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/0c1d0600a2c81507bdb700d13fa0b42c8d1374d3/original/fc1859e4-a740-49a3-bc68-755b7c986dd6.jpg/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/fc1859e4-a740-49a3-bc68-755b7c986dd6--a5f9cf5205.jpg",
+          "backup_path": "archive/doctors-notes/images/7611d56c3506-fc1859e4-a740-49a3-bc68-755b7c986dd6.jpg",
+          "bytes": 105418,
+          "sha256": "7611d56c3506e99e50fac11d02cf7bf8e010fe10627ebf43b8bfbb8eba87970b"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/9f70bb272c368d7523e65b61d4f594a0ecd32c01/original/kiss-blog-1.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/kiss-blog-1--28f608fb8c.png",
+          "backup_path": "archive/doctors-notes/images/f4a47f518ce6-kiss-blog-1.png",
+          "bytes": 9051970,
+          "sha256": "f4a47f518ce6a3bc04f6b620d76b724e8280584a73445d0d8c9de62fb3eedddf"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/36f271bf407c429f124aadca1626eca8293b136a/original/kiss-blog-2.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/kiss-blog-2--e636b02995.png",
+          "backup_path": "archive/doctors-notes/images/3925d417f182-kiss-blog-2.png",
+          "bytes": 9304252,
+          "sha256": "3925d417f182b63e62bbac1d62bd6ee3013c9b585eb17f3ce8c584d44a0291d0"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/5179dbbd8080098fb9b1136dce28d7a87e9d6a3e/original/kiss-blog-3.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/kiss-blog-3--ffbc780d0c.png",
+          "backup_path": "archive/doctors-notes/images/21293c39d0c7-kiss-blog-3.png",
+          "bytes": 2482028,
+          "sha256": "21293c39d0c7ae6307ae344ef230d6cb6ecf76bd95e5a2b3673a70e2b434c369"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/f275028bb4d53697b42909f5b409efe2b328c07b/original/kiss-blog-header-image.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/kiss-blog-header-image--5bc13e3a6a.png",
+          "backup_path": "archive/doctors-notes/images/26a4c5533ec9-kiss-blog-header-image.png",
+          "bytes": 2674710,
+          "sha256": "26a4c5533ec9e409adab279470892c882c923858f75ced663e6af83884f2391f"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/f62f905627f63b592ce030e94d30c500b3c291c2/original/kiss-picks.jpg/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/kiss-picks--4151542db8.jpg",
+          "backup_path": "archive/doctors-notes/images/523571028118-kiss-picks.jpg",
+          "bytes": 79035,
+          "sha256": "523571028118840dc24841d55d8165f8f5e3361aec4644028f22b6a687c9a43f"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7758142",
+      "title": "Why AI Belongs in the Hands of Creative People (And Why Creatives Need to Stop Fearing It)",
+      "published_date": "2026-04-30",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7758142/why-ai-belongs-in-the-hands-of-creative-people-and-why-creatives-need-to-stop-fearing-it",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7758142/why-ai-belongs-in-the-hands-of-creative-people-and-why-creatives-need-to-stop-fearing-it",
+      "slug": "why-ai-belongs-in-the-hands-of-creative-people-and-why-creatives-need-to-stop-fearing-it",
+      "markdown_path": "archive/doctors-notes/posts/2026-04-30-7758142-why-ai-belongs-in-the-hands-of-creative-people-and-why-creatives-need-to-stop-fearing-it.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2026-04-30-7758142-why-ai-belongs-in-the-hands-of-creative-people-and-why-creatives-need-to-stop-fearing-it.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/ca053a45a021c400e7c41dcdb9d1018438b2e368/original/96a34364e66441a88c1957ed25535329.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/96a34364e66441a88c1957ed25535329--32f671145b.png",
+          "backup_path": "archive/doctors-notes/images/087e26bebd72-96a34364e66441a88c1957ed25535329.png",
+          "bytes": 902772,
+          "sha256": "087e26bebd722efd41e090d3a61d443d7acec32fef176806495530bcfa909165"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/37ec4c50f07deffd87484275d4e3d451e9cde27f/original/fdasdfasd.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/fdasdfasd--f7c604d779.png",
+          "backup_path": "archive/doctors-notes/images/708164a24196-fdasdfasd.png",
+          "bytes": 8990688,
+          "sha256": "708164a2419682b15055a03d252fa5967fdeac6ddb701553f9e0d58fe54221ac"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/9797857021d80caa664252a23c939fa980bdc400/original/gemini-generated-image-76ykyc76ykyc76yk.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/gemini-generated-image-76ykyc76ykyc76yk--97fffa6398.png",
+          "backup_path": "archive/doctors-notes/images/0fc3507f49ff-gemini-generated-image-76ykyc76ykyc76yk.png",
+          "bytes": 8245966,
+          "sha256": "0fc3507f49ff846c9d73c32f3654822088c802cac3ea417ea44c5a3615ac4ad7"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/964d05cfc0a19baeb9c61d5e3e7632fc2efddaa7/original/gemini-generated-image-s2v6nzs2v6nzs2v6.png/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/gemini-generated-image-s2v6nzs2v6nzs2v6--fcb1545bbf.png",
+          "backup_path": "archive/doctors-notes/images/9279e2a1ba98-gemini-generated-image-s2v6nzs2v6nzs2v6.png",
+          "bytes": 7917647,
+          "sha256": "9279e2a1ba98a6c9ad0010de14aecc89588a534c3c1134c8e247fc84e9cb3c61"
+        },
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/bd14f5f0acfba69c78a26fc790c69ba2fb3db3b8/original/screenshot-20260423-155009-gmail.jpg/!!/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ==",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/screenshot-20260423-155009-gmail--0dcda36511.jpg",
+          "backup_path": "archive/doctors-notes/images/7a8443d2aca9-screenshot-20260423-155009-gmail.jpg",
+          "bytes": 131998,
+          "sha256": "7a8443d2aca9196de5fa8942852f9fffb3c7cf6797eab4cd6791ec7e1ad5788a"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7753004",
+      "title": "How I Made a $500K Music Video for Almost Nothing (And Why Ozzy Would Approve)",
+      "published_date": "2026-04-22",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7753004/how-i-made-a-500k-music-video-for-almost-nothing-and-why-ozzy-would-approve",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7753004/how-i-made-a-500k-music-video-for-almost-nothing-and-why-ozzy-would-approve",
+      "slug": "how-i-made-a-500k-music-video-for-almost-nothing-and-why-ozzy-would-approve",
+      "markdown_path": "archive/doctors-notes/posts/2026-04-22-7753004-how-i-made-a-500k-music-video-for-almost-nothing-and-why-ozzy-would-approve.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2026-04-22-7753004-how-i-made-a-500k-music-video-for-almost-nothing-and-why-ozzy-would-approve.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/5f0adc86b52065664ae9a5e6092c0ae5a69b8504/original/album-cover-1.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/album-cover-1--7d0425efea.png",
+          "backup_path": "archive/doctors-notes/images/4bb4db3b46dc-album-cover-1.png",
+          "bytes": 3442839,
+          "sha256": "4bb4db3b46dcad797064d77b545919164b8a8aa80fdb2d2b069fd0f22a2ed1d6"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7585923",
+      "title": "AI in the Classroom: Stop Panicking, Start Preparing",
+      "published_date": "2025-06-04",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7585923/ai-in-the-classroom-stop-panicking-start-preparing",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7585923/ai-in-the-classroom-stop-panicking-start-preparing",
+      "slug": "ai-in-the-classroom-stop-panicking-start-preparing",
+      "markdown_path": "archive/doctors-notes/posts/2025-06-04-7585923-ai-in-the-classroom-stop-panicking-start-preparing.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2025-06-04-7585923-ai-in-the-classroom-stop-panicking-start-preparing.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/6421fc4849075bda3448deef495d28e6ead3eada/original/chatgpt-image-jun-4-2025-11-21-22-am.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/chatgpt-image-jun-4-2025-11-21-22-am--ef03b97ad7.png",
+          "backup_path": "archive/doctors-notes/images/f9daefa738b0-chatgpt-image-jun-4-2025-11-21-22-am.png",
+          "bytes": 2630792,
+          "sha256": "f9daefa738b0a8c6a868ca91b768a7bf4af09621cde55db558550e3cec64491a"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7526660",
+      "title": "Red Light, Green Light: How I’m Structuring AI Use in My Classes 🚦🎭",
+      "published_date": "2025-02-10",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7526660/red-light-green-light-how-i-m-structuring-ai-use-in-my-classes",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7526660/red-light-green-light-how-i-m-structuring-ai-use-in-my-classes",
+      "slug": "red-light-green-light-how-i-m-structuring-ai-use-in-my-classes",
+      "markdown_path": "archive/doctors-notes/posts/2025-02-10-7526660-red-light-green-light-how-i-m-structuring-ai-use-in-my-classes.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2025-02-10-7526660-red-light-green-light-how-i-m-structuring-ai-use-in-my-classes.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/f51e8b6d80f3b4c005dbe9c947c2f8a91dd647e2/original/onemanelectricalband-a-cartoon-of-the-squid-game-red-light-gree-68d69c5d-4c5e-44af-af6a-12f2d9a0a814.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/onemanelectricalband-a-cartoon-of-the-squid-game-red-light-gree-68d69c5d-4c5e-44af-af6a-12--4fb3b96025.png",
+          "backup_path": "archive/doctors-notes/images/6b142d5fd457-onemanelectricalband-a-cartoon-of-the-squid-game-red-light-gree-68d69c.png",
+          "bytes": 3427368,
+          "sha256": "6b142d5fd45714410ba0cd9b8d9a573d3bea634f130fd57a4a7d119173329fa2"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7524996",
+      "title": "🔥 Marketing That Rocks w/ Dr. C 🔥 February 2025 Edition",
+      "published_date": "2025-02-06",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7524996/marketing-that-rocks-w-dr-c-february-2025-edition",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7524996/marketing-that-rocks-w-dr-c-february-2025-edition",
+      "slug": "marketing-that-rocks-w-dr-c-february-2025-edition",
+      "markdown_path": "archive/doctors-notes/posts/2025-02-06-7524996-marketing-that-rocks-w-dr-c-february-2025-edition.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2025-02-06-7524996-marketing-that-rocks-w-dr-c-february-2025-edition.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/a3e5919837bdd4b684bff775ebe1a08a2b0aded6/original/onemanelectricalband-marketing-that-rocks-w-dr-c-a-rock-n-r-21b2e530-2b6d-467a-80b4-062b3385b245-3.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/onemanelectricalband-marketing-that-rocks-w-dr-c-a-rock-n-r-21b2e530-2b6d-467a-80b4-062b33--d248ae965b.png",
+          "backup_path": "archive/doctors-notes/images/fc766882195c-onemanelectricalband-marketing-that-rocks-w-dr-c-a-rock-n-r-21b2e530-2.png",
+          "bytes": 1477008,
+          "sha256": "fc766882195cc57947ad975cbb30c68e21b6235d339d201884e6306249385465"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7503267",
+      "title": "A Parent's Guide to Artificial Intelligence",
+      "published_date": "2024-12-18",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7503267/a-parent-s-guide-to-artificial-intelligence",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7503267/a-parent-s-guide-to-artificial-intelligence",
+      "slug": "a-parent-s-guide-to-artificial-intelligence",
+      "markdown_path": "archive/doctors-notes/posts/2024-12-18-7503267-a-parent-s-guide-to-artificial-intelligence.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-12-18-7503267-a-parent-s-guide-to-artificial-intelligence.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/940521d397281ff8a9c8d5b121abaef67217a4ba/original/onemanelectricalband-a-parents-guide-to-artificial-intelligen-a6fa5e2a-6ee2-47cc-90ab-7ac9891e16c1-2.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/onemanelectricalband-a-parents-guide-to-artificial-intelligen-a6fa5e2a-6ee2-47cc-90ab-7ac9--b9070b391c.png",
+          "backup_path": "archive/doctors-notes/images/43cb4224c217-onemanelectricalband-a-parents-guide-to-artificial-intelligen-a6fa5e2a.png",
+          "bytes": 1661716,
+          "sha256": "43cb4224c21726c9ba81b00d63466ff68e6f2b36682b8bb1a940663b8eea882a"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7481423",
+      "title": "Rock Legend Joins Local Band",
+      "published_date": "2024-10-28",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7481423/rock-legend-joins-local-band",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7481423/rock-legend-joins-local-band",
+      "slug": "rock-legend-joins-local-band",
+      "markdown_path": "archive/doctors-notes/posts/2024-10-28-7481423-rock-legend-joins-local-band.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-10-28-7481423-rock-legend-joins-local-band.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/0b666272e7bebb8ccf7ad6c25976ac4051e00ac6/original/vinny1.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/a0e7e5f3f3f6-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 106342,
+          "sha256": "a0e7e5f3f3f655d2cd86008af74637e7adff59eccf184e8f5611974c6d781acb"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7461912",
+      "title": "A Practical Guide to Incorporating AI and ChatGPT in Everyday Life",
+      "published_date": "2024-09-13",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7461912/a-practical-guide-to-incorporating-ai-and-chatgpt-in-everyday-life",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7461912/a-practical-guide-to-incorporating-ai-and-chatgpt-in-everyday-life",
+      "slug": "a-practical-guide-to-incorporating-ai-and-chatgpt-in-everyday-life",
+      "markdown_path": "archive/doctors-notes/posts/2024-09-13-7461912-a-practical-guide-to-incorporating-ai-and-chatgpt-in-everyday-life.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-09-13-7461912-a-practical-guide-to-incorporating-ai-and-chatgpt-in-everyday-life.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/d252cebd07eed865c6bd414f3f02ae367758553e/original/onemanelectricalband-a-futuristic-image-that-represents-ai-in-686471d7-7b64-4b1c-bc2e-449032242a0f-0.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/2c59f918fbf9-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 226800,
+          "sha256": "2c59f918fbf9e6b6d6739387d0f71d80f28478af7aed450b1c82c3139eb18981"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7446494",
+      "title": "ChatGPT for Course Prep, Assignments, Grading, and More",
+      "published_date": "2024-08-08",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7446494/chatgpt-for-course-prep-assignments-grading-and-more",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7446494/chatgpt-for-course-prep-assignments-grading-and-more",
+      "slug": "chatgpt-for-course-prep-assignments-grading-and-more",
+      "markdown_path": "archive/doctors-notes/posts/2024-08-08-7446494-chatgpt-for-course-prep-assignments-grading-and-more.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-08-08-7446494-chatgpt-for-course-prep-assignments-grading-and-more.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/fcf1ee0a74afc811ba80ffb81a39e66a0ac2a6f3/original/onemanelectricalband-artificial-intelligence-in-education-e8ece10f-25e8-482d-83ff-a5c1e7111c49-1.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/onemanelectricalband-artificial-intelligence-in-education-e8ece10f-25e8-482d-83ff-a5c1e711--c989663235.png",
+          "backup_path": "archive/doctors-notes/images/4aa0ca2c73b1-onemanelectricalband-artificial-intelligence-in-education-e8ece10f-25e.png",
+          "bytes": 1474377,
+          "sha256": "4aa0ca2c73b1bd14282b827043fc480e89b9a91dbad2321d8bffba74f4bbb583"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7418391",
+      "title": "Why Teachers and Students Should Be Using ChatGPT (AI)",
+      "published_date": "2024-06-16",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7418391/why-teachers-and-students-should-be-using-chatgpt-ai",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7418391/why-teachers-and-students-should-be-using-chatgpt-ai",
+      "slug": "why-teachers-and-students-should-be-using-chatgpt-ai",
+      "markdown_path": "archive/doctors-notes/posts/2024-06-16-7418391-why-teachers-and-students-should-be-using-chatgpt-ai.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-06-16-7418391-why-teachers-and-students-should-be-using-chatgpt-ai.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/ef856c427dbf7086248ba7a964b1c137af65edeb/original/onemanelectricalband-ai-in-education-a-cover-image-for-a-blog-44ace3f2-e345-48b6-a379-9d50a76ece92-2.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": "assets/images/migrated/images.zoogletools.com/onemanelectricalband-ai-in-education-a-cover-image-for-a-blog-44ace3f2-e345-48b6-a379-9d50--9f52d164af.png",
+          "backup_path": "archive/doctors-notes/images/7d2582af905d-onemanelectricalband-ai-in-education-a-cover-image-for-a-blog-44ace3f2.png",
+          "bytes": 2138952,
+          "sha256": "7d2582af905d5cc2731ea01bf123494b44da5904b445a97626656abcaf61acb3"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7343575",
+      "title": "How I Used Ai to Do Market Research on the Music Industry",
+      "published_date": "2024-01-31",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7343575/how-i-used-ai-to-do-market-research-on-the-music-industry",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7343575/how-i-used-ai-to-do-market-research-on-the-music-industry",
+      "slug": "how-i-used-ai-to-do-market-research-on-the-music-industry",
+      "markdown_path": "archive/doctors-notes/posts/2024-01-31-7343575-how-i-used-ai-to-do-market-research-on-the-music-industry.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-01-31-7343575-how-i-used-ai-to-do-market-research-on-the-music-industry.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/2cdc308d5662e2c47ea43432f27be5cfad805c27/original/dr-omeb-tshirt-topaz-1.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/7c58853aa3a4-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 55964,
+          "sha256": "7c58853aa3a467088d5087a4f0268cf1b7eb2028b9ea8e92ba0e3baa4f087824"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7340439",
+      "title": "The Death of the NAMM Show?",
+      "published_date": "2024-01-26",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7340439/the-death-of-the-namm-show",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7340439/the-death-of-the-namm-show",
+      "slug": "the-death-of-the-namm-show",
+      "markdown_path": "archive/doctors-notes/posts/2024-01-26-7340439-the-death-of-the-namm-show.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-01-26-7340439-the-death-of-the-namm-show.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/d8ff525138443c99b19f5310888444b614298a78/original/03.jpg/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/dee43a06767b-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 246928,
+          "sha256": "dee43a06767b120faf1efe99170f5a207e5ffe54670b208016ea4cd864282387"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7334706",
+      "title": "Marketing Doctor Analyzes The Smashing Pumpkins: ZERO to Bulletproof",
+      "published_date": "2024-01-16",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7334706/marketing-doctor-analyzes-the-smashing-pumpkins-zero-to-bulletproof",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7334706/marketing-doctor-analyzes-the-smashing-pumpkins-zero-to-bulletproof",
+      "slug": "marketing-doctor-analyzes-the-smashing-pumpkins-zero-to-bulletproof",
+      "markdown_path": "archive/doctors-notes/posts/2024-01-16-7334706-marketing-doctor-analyzes-the-smashing-pumpkins-zero-to-bulletproof.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-01-16-7334706-marketing-doctor-analyzes-the-smashing-pumpkins-zero-to-bulletproof.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/7102a4a36eb9b208e9f9dd1e5818ab4b97680eb0/original/dall-e-2024-01-07-09-39-17-a-cartoon-character-resembling-billy-corgan-with-a-bald-head-wearing-a-black-t-shirt-with-the-word-zero-in-bold-silver-letters-the-character-is.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/5243d2ea592d-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 413230,
+          "sha256": "5243d2ea592d67161067c7ca111ebec5b81a09b16dfbde1394c0c77606d98b8e"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7334705",
+      "title": "Marketing Doctor's Shocking Reaction To Dave Mustaine's Rant",
+      "published_date": "2024-01-16",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7334705/marketing-doctor-s-shocking-reaction-to-dave-mustaine-s-rant",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7334705/marketing-doctor-s-shocking-reaction-to-dave-mustaine-s-rant",
+      "slug": "marketing-doctor-s-shocking-reaction-to-dave-mustaine-s-rant",
+      "markdown_path": "archive/doctors-notes/posts/2024-01-16-7334705-marketing-doctor-s-shocking-reaction-to-dave-mustaine-s-rant.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-01-16-7334705-marketing-doctor-s-shocking-reaction-to-dave-mustaine-s-rant.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/09e106ff159e00fa5d9e603c010e10c96a52d1cd/original/01.jpg/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/ed335e5ed30f-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 231384,
+          "sha256": "ed335e5ed30f3c41c63c30277a29a37ca27185eb605f70afb8b8487cb870a9b8"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7334701",
+      "title": "Marketing Doctor Analyzes Liliac's \"Carol of the Bells\"",
+      "published_date": "2024-01-16",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7334701/marketing-doctor-analyzes-liliac-s-carol-of-the-bells",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7334701/marketing-doctor-analyzes-liliac-s-carol-of-the-bells",
+      "slug": "marketing-doctor-analyzes-liliac-s-carol-of-the-bells",
+      "markdown_path": "archive/doctors-notes/posts/2024-01-16-7334701-marketing-doctor-analyzes-liliac-s-carol-of-the-bells.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-01-16-7334701-marketing-doctor-analyzes-liliac-s-carol-of-the-bells.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/453066299ade849690c3abfa5dbf33aa72bfc983/original/carol-of-the-bells-thumb.png/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/9a9205e867c6-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 178320,
+          "sha256": "9a9205e867c60f734700ade7fb98fb83507b4e84246bc403d36e466968dcdd5b"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7334700",
+      "title": "Deck the War Pigs: A Christmas Parody",
+      "published_date": "2024-01-16",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7334700/deck-the-war-pigs-a-christmas-parody",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7334700/deck-the-war-pigs-a-christmas-parody",
+      "slug": "deck-the-war-pigs-a-christmas-parody",
+      "markdown_path": "archive/doctors-notes/posts/2024-01-16-7334700-deck-the-war-pigs-a-christmas-parody.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-01-16-7334700-deck-the-war-pigs-a-christmas-parody.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/9c0575dba2a0f456b4d94d6e8101f68eca36e42a/original/03.jpg/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/9bb620e8ae86-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 162796,
+          "sha256": "9bb620e8ae869a46b560231f2cdea9df8ef55ecce66ad96c16fb3efdc2eda201"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "post_id": "7334699",
+      "title": "I made my acoustic sound like Black Sabbath",
+      "published_date": "2024-01-16",
+      "source_url": "https://onemanelectricalband.com/blog/blog/7334699/i-made-my-acoustic-sound-like-black-sabbath",
+      "final_url": "https://onemanelectricalband.com/blog/blog/7334699/i-made-my-acoustic-sound-like-black-sabbath",
+      "slug": "i-made-my-acoustic-sound-like-black-sabbath",
+      "markdown_path": "archive/doctors-notes/posts/2024-01-16-7334699-i-made-my-acoustic-sound-like-black-sabbath.md",
+      "raw_html_path": "archive/doctors-notes/raw-html/2024-01-16-7334699-i-made-my-acoustic-sound-like-black-sabbath.html",
+      "images": [
+        {
+          "source_url": "https://images.zoogletools.com/s:bzglfiles/u/671130/c8c6466c6b4b8ea6dcde1657d4eaa69e09806913/original/mikecarr372.jpg/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/a6b7599845dd-meta-eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ.webp",
+          "bytes": 260618,
+          "sha256": "a6b7599845ddf1d5d13e3f4cb286fc7b128f49c3319f1fb7c952843b478a3214"
+        },
+        {
+          "source_url": "https://onemanelectricalband.com/files/1408447/pr-image-2.png",
+          "original_archive_path": null,
+          "backup_path": "archive/doctors-notes/images/0eb82cb9cbc9-pr-image-2.png",
+          "bytes": 6495659,
+          "sha256": "0eb82cb9cbc9718ced2d0464d9518cab1f3921ff02b8f32b18fb74061e06ccf7"
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}
