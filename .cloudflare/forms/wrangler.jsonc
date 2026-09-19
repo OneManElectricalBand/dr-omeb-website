@@ -1,0 +1,24 @@
+{
+  "name": "dr-omeb-forms",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-09-19",
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "MAILERLITE_GROUP_ID": "197691176067794357",
+    "MAILERLITE_DOUBLE_OPT_IN_READY": "true",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAE9DiOVioevI8G02",
+    "CONTACT_TO": "onemanelectricalband@gmail.com",
+    "CONTACT_FROM": "hello@onemanelectricalband.com"
+  },
+  "send_email": [{
+    "name": "EMAIL",
+    "destination_address": "onemanelectricalband@gmail.com",
+    "allowed_sender_addresses": ["hello@onemanelectricalband.com"]
+  }],
+  "ratelimits": [{
+    "name": "FORM_LIMITER", "namespace_id": "26091901",
+    "simple": { "limit": 5, "period": 60 }
+  }],
+  "observability": { "enabled": true, "head_sampling_rate": 1 }
+}
