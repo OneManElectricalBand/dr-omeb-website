@@ -4,7 +4,7 @@ Static rebuild of the primary Dr. OMEB / One Man Electrical Band website for dep
 
 ## Current migration status
 
-This repository is the preview/staging build. The live Bandzoogle site remains the production source until cutover is approved.
+This repository contains the Cloudflare Pages replacement for the Bandzoogle site. The primary domain remains on Bandzoogle until final cutover approval and DNS attachment.
 
 ### Included
 - Home / Rock n' Roll Church
@@ -14,7 +14,7 @@ This repository is the preview/staging build. The live Bandzoogle site remains t
 - Press Kit
 - Contact
 - Album Art
-- Blog placeholder for **Diary of a Rock n' Roll Doctor** on Substack
+- Native **Diary of a Rock n' Roll Doctor** landing page and RSS feed
 - Responsive shared navigation, footer and Rock n' Roll Church visual system
 - Existing SEO/schema direction carried into static pages
 
@@ -26,9 +26,11 @@ This repository is the preview/staging build. The live Bandzoogle site remains t
 - Contact form delivery to OMEB Gmail and visitor Reply-To passed. Contact messages do not subscribe visitors.
 - Backend code, configuration, and tests: `.cloudflare/forms/`. Secrets are stored only in Cloudflare.
 
-### Intentionally not live yet
-- Substack destination: publication URL has not yet been finalized.
-- Final asset migration: a small number of preview assets currently load from existing Dr. OMEB/Bandzoogle CDN URLs and must be copied into this repository before Bandzoogle is cancelled.
+### Cutover readiness
+- Bandzoogle file, music and gallery assets are backed up locally and in a private GitHub repository.
+- All production website images used by this build are stored locally in this repository.
+- MailerLite signup and contact delivery are verified through Cloudflare-protected forms.
+- The native Diary remains the permanent blog destination; no external publishing platform is required for launch.
 
 ## Cloudflare Pages
 
@@ -38,4 +40,4 @@ This is a no-build static site.
 - Build command: leave blank
 - Build output directory: `/` (repository root)
 
-Do not attach `onemanelectricalband.com` until email, forms, Substack URL, redirects and asset localization have passed final review.
+Attach `onemanelectricalband.com` after the final preview, link, form and redirect checks pass.
