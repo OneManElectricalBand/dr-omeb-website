@@ -18,8 +18,13 @@ This repository is the preview/staging build. The live Bandzoogle site remains t
 - Responsive shared navigation, footer and Rock n' Roll Church visual system
 - Existing SEO/schema direction carried into static pages
 
+### Mailing list
+- Home and Contact pages embed the MailerLite Congregation form (`owZ7RB`, account `2615311`).
+- The form sends subscribers to the existing Congregation group with double opt-in and reCAPTCHA enabled.
+- A hosted-form fallback link is available if the embed is blocked. Domain authentication is verified.
+- Complete an end-to-end signup test before cutover; the hosted form showed a reCAPTCHA quota warning during setup.
+
 ### Intentionally not live yet
-- Congregation email signup: email platform migration is still being decided.
 - Contact / booking form submission: Cloudflare form backend and anti-spam protection still need to be connected.
 - Substack destination: publication URL has not yet been finalized.
 - Final asset migration: a small number of preview assets currently load from existing Dr. OMEB/Bandzoogle CDN URLs and must be copied into this repository before Bandzoogle is cancelled.
