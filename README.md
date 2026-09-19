@@ -19,13 +19,14 @@ This repository is the preview/staging build. The live Bandzoogle site remains t
 - Existing SEO/schema direction carried into static pages
 
 ### Mailing list
-- Home and Contact pages embed the MailerLite Congregation form (`owZ7RB`, account `2615311`).
-- The form sends subscribers to the existing Congregation group with double opt-in and reCAPTCHA enabled.
-- A hosted-form fallback link is available if the embed is blocked. Domain authentication is verified.
-- Complete an end-to-end signup test before cutover; the hosted form showed a reCAPTCHA quota warning during setup.
+- Home and Contact pages use native forms protected by Cloudflare Turnstile.
+- The Worker adds new subscribers to the existing Congregation group through MailerLite, with API double opt-in enabled.
+- Confirmation email sender: OMEB Communications <hello@onemanelectricalband.com>. This is an account-wide API setting, approved by Mike.
+- End-to-end signup and email confirmation passed September 19, 2026. Gmail verified SPF and DKIM.
+- Contact form delivery to OMEB Gmail and visitor Reply-To passed. Contact messages do not subscribe visitors.
+- Backend code, configuration, and tests: `.cloudflare/forms/`. Secrets are stored only in Cloudflare.
 
 ### Intentionally not live yet
-- Contact / booking form submission: Cloudflare form backend and anti-spam protection still need to be connected.
 - Substack destination: publication URL has not yet been finalized.
 - Final asset migration: a small number of preview assets currently load from existing Dr. OMEB/Bandzoogle CDN URLs and must be copied into this repository before Bandzoogle is cancelled.
 

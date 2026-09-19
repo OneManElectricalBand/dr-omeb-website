@@ -47,6 +47,14 @@ double opt-in are configured. Then test contact receipt and reply-to, a new
 double-opt-in signup, and layouts on desktop and mobile at the Pages preview.
 The existing main domain should still serve Bandzoogle during these tests.
 
-As of September 19, 2026: Worker and Turnstile deployed; invalid-token rejection
-verified remotely; eight backend tests pass. MailerLite token creation awaits
-Mike's action-time approval. Frontend changes are prepared locally, unpublished.
+As of September 19, 2026: Worker, Turnstile, and frontend deployed. MailerLite
+token connected; API double opt-in enabled. Mike approved the account-wide API
+confirmation sender change to hello@onemanelectricalband.com.
+
+Eight backend tests pass; remote invalid-token rejection verified. Contact
+submission arrived in Gmail with correct Reply-To and passing SPF/DKIM. A new
+test signup entered the Congregation group as unconfirmed, received its email
+with passing SPF/DKIM, and became active only after its confirmation link was
+opened. The test alias was then unsubscribed to prevent duplicate campaign mail.
+Desktop form layouts checked. The browser viewport override did not apply, so
+an actual mobile rendering check remains outstanding. No production DNS changes.
