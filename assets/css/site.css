@@ -42,3 +42,7 @@ footer{border-top:1px solid var(--line);background:rgba(7,6,6,.96)}.footer-inner
 @media(max-width:480px){.signup-panel{padding:.5rem 0}.signup-panel .form-note{padding:0 1rem}}
 
 .omeb-form{display:grid;gap:1rem;position:relative}.omeb-form label{display:grid;gap:.4rem;font-size:16px;font-weight:700}.omeb-form input,.omeb-form select,.omeb-form textarea{width:100%;min-width:0;padding:.8rem;background:#171515;color:var(--cream,#f0ead8);border:1px solid #777;font:inherit;border-radius:2px}.omeb-form .form-consent{display:flex;align-items:flex-start;gap:.65rem;font-weight:400}.omeb-form .form-consent input{width:20px;min-width:20px;height:20px;margin-top:3px}.omeb-form button:disabled{opacity:.55;cursor:wait}.omeb-form :focus-visible{outline:2px solid var(--gold);outline-offset:3px}.form-honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}.form-status{margin:0;font-size:16px;line-height:1.5}.form-status:empty{display:none}.omeb-form [data-turnstile]{min-width:0;min-height:65px}.signup-panel>h3{margin-top:0}@media(max-width:480px){.signup-panel{padding:1rem}.signup-panel .form-note{padding:0}}
+
+/* Local hero playback controls stay clear of the overlapping title card. */
+.hero-motion{position:absolute;left:16px;bottom:52px;z-index:3;min-height:44px;padding:8px 16px;border:1px solid var(--line);background:rgba(8,7,7,.92);color:var(--bone);font-size:15px;font-weight:700;cursor:pointer}
+.hero-motion[hidden]{display:none}.hero-motion:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
