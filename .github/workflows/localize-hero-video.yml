@@ -1,0 +1,46 @@
+name: Localize homepage hero video
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/localize-hero-video.yml'
+      - 'scripts/localize_hero_video.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: localize-hero-video
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Ensure FFmpeg is available
+        run: |
+          if ! command -v ffmpeg >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y ffmpeg
+          fi
+      - name: Download, verify and optimize the hero video
+        run: python3 scripts/localize_hero_video.py
+      - name: Commit the verified video and homepage integration
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/video assets/js/hero-video.js assets/css/site.css index.html
+          if git diff --cached --quiet; then
+            echo 'Hero already migrated.'
+            exit 0
+          fi
+          git diff --cached --check
+          git commit -m 'Host optimized hero video locally with motion controls'
+          git push origin HEAD:main
