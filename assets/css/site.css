@@ -46,3 +46,21 @@ footer{border-top:1px solid var(--line);background:rgba(7,6,6,.96)}.footer-inner
 /* Local hero playback controls stay clear of the overlapping title card. */
 .hero-motion{position:absolute;left:16px;bottom:52px;z-index:3;min-height:44px;padding:8px 16px;border:1px solid var(--line);background:rgba(8,7,7,.92);color:var(--bone);font-size:15px;font-weight:700;cursor:pointer}
 .hero-motion[hidden]{display:none}.hero-motion:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* Keep stacked releases video-first and mobile hero controls out of the performance. */
+@media(max-width:1100px){
+  .release > .video{order:-1}
+}
+@media(max-width:760px){
+  .hero-video .live-badge{
+    top:auto;right:8px;bottom:20px;
+    max-width:calc(100% - 116px);min-height:44px;
+    display:flex;align-items:center;justify-content:center;
+    padding:6px 8px;font-size:11px;line-height:1.25;
+    letter-spacing:.04em;text-align:center;
+  }
+  .hero-video .hero-motion{
+    left:8px;bottom:20px;min-height:44px;
+    padding:6px 10px;font-size:12px;line-height:1.25;
+  }
+}
