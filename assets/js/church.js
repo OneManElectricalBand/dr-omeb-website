@@ -2,6 +2,9 @@
 const root=document.getElementById('church-preview');
 const rooms={arrival:{image:'/assets/church/58822f13c94d.webp',kicker:'The doors are open',title:'Your Sunday plans just got louder.',description:'Classic rock, guitar solos, requests, and a room full of people who get it. Explore the Church, then join Dr. OMEB live on Sunday.',action:'Watch on TikTok ↗',url:'https://www.tiktok.com/@onemanelectricalband',caption:'Explore the Church · Choose a destination in the room or below.'},stage:{image:'/assets/church/9ee0d912b6d3.webp',kicker:'Front and center',title:'Rainbow in the Dark',description:'Dr. OMEB takes on the guitar solo. Take your seat and turn it up.',action:'Play clip on YouTube ↗',url:'https://www.youtube.com/shorts/AO9CQCGRBno',caption:'The stage · Sound and playback controls are below the room.'},merch:{image:'/assets/church/673f41cd408a.webp',kicker:'Wear it loud',title:'The official merch booth.',description:'Dr. OMEB and Rock n’ Roll Church gear. Select a hanging shirt to open its official product page.',action:'Shop official merch ↗',url:'https://onemanelectricalband.com/merch/',caption:'Merch booth · Select a shirt to shop.'},backstage:{image:'/assets/church/e619eb63414b.webp',kicker:'Recent releases & music videos',title:'Turn it up backstage.',description:'Watch Symptom of the Universe, Close My Eyes Forever, You Took the Words Right Out of My Mouth, and Sign of the Times. Select a cover or a song below to watch on YouTube.',action:'Watch Symptom of the Universe ↗',url:'https://youtu.be/z1HqOYG-p-o',caption:'Backstage · Select a cover to watch the music video on YouTube.'},lounge:{image:'/assets/church/82abf485ba1c.webp',kicker:'You belong here',title:'Join the Congregation.',description:'Sunday reminders, new music, and news from Dr. OMEB. No spam. No altar call. Just rock.',action:'Join the mailing list ↗',url:'https://onemanelectricalband.com/#congregation',caption:'The Congregation · Your place in Rock n’ Roll Church.'}};
 const image=root.querySelector('#church-room-image');
+const scene=root.querySelector('.scene');
+const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+function clearTransition(){image.classList.remove('moving');scene.classList.remove('changing');scene.removeAttribute('aria-busy');}
 const v=root.querySelector('#performance');
 const sound=root.querySelector('#sound-button'), pause=root.querySelector('#pause-button'), status=root.querySelector('#playback-status');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -21,12 +24,14 @@ v.addEventListener('play',update);v.addEventListener('pause',update);
 v.addEventListener('error',()=>{status.textContent='Clip unavailable here. Use the YouTube link below.';update();});
 root.querySelectorAll('button[data-room]').forEach(button=>button.addEventListener('click',async()=>{
  const key=button.dataset.room,r=rooms[key],token=++request;
- root.querySelector('.scene').setAttribute('aria-busy','true');
+ scene.setAttribute('aria-busy','true');
+ scene.classList.add('changing');
+ if(!reduced)image.classList.add('moving');
  const next=new Image();next.src=r.image;
- try{await next.decode();}catch(e){if(token===request){status.textContent='Room image could not load. Please try again.';root.querySelector('.scene').removeAttribute('aria-busy');}return;}
+ try{await Promise.all([next.decode(),wait(reduced?0:240)]);}catch(e){if(token===request){status.textContent='Room image could not load. Please try again.';clearTransition();}return;}
  if(token!==request)return;
  image.src=r.image;image.alt=r.title;root.dataset.room=key;
- root.querySelector('.scene').removeAttribute('aria-busy');
+ 
  root.querySelector('#church-hotspots').hidden=key!=='arrival';
  root.querySelector('#product-links').hidden=key!=='merch';root.querySelector('#shop-list').hidden=key!=='merch';root.querySelector('#art-links').hidden=key!=='backstage';
  ['kicker','title','description','caption'].forEach(field=>root.querySelector('#church-'+field).textContent=r[field]);
@@ -35,6 +40,12 @@ root.querySelectorAll('button[data-room]').forEach(button=>button.addEventListen
  if(a.getAttribute('href').startsWith('/')){a.removeAttribute('target');a.removeAttribute('rel');}else{a.target='_blank';a.rel='noopener';}
  root.querySelectorAll('.nav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.room===key)));
  setPlayback(key);track('church_room_view',{room_name:key});
+ // Paint the decoded destination before revealing it, keeping overlays aligned.
+ if(!reduced)await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+ if(token!==request)return;
+ image.classList.remove('moving');
+ if(!reduced)await wait(280);
+ if(token===request)clearTransition();
 }));
 root.addEventListener('click',e=>{const a=e.target.closest('a');if(a)track('church_link_click',{link_url:a.href,link_text:a.textContent.trim()||a.getAttribute('aria-label'),room_name:root.dataset.room});});
 update();

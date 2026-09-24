@@ -65,7 +65,8 @@ body{margin:0;background:#090808}#church-preview{max-width:1500px;margin:auto;bo
 #church-preview .screen{left:47.05%;top:45.1%;width:5.65%;height:auto;aspect-ratio:9/16;transition:none;background:transparent;z-index:1}
 #church-preview[data-room="stage"] .screen{left:43.1%;top:28.1%;width:12.8%;height:auto;aspect-ratio:9/16}
 #church-preview .screen video{width:100%;height:100%;object-fit:contain}
-#church-preview .room{transition:opacity .2s ease;transform:none!important}
+#church-preview .room{transition:transform .28s ease,filter .28s ease,opacity .28s ease;transform:scale(1);filter:blur(0);opacity:1}
+#church-preview .room.moving{transform:scale(1.08);filter:blur(8px);opacity:.35}
 #church-preview .scene.changing .screen,#church-preview .scene.changing #product-links,#church-preview .scene.changing #art-links,#church-preview .scene.changing .community-board{visibility:hidden}
 #church-preview .product-target{top:42%;height:29%;width:11%}
 #church-preview .product-target span{top:100%;width:100%;min-height:44px;white-space:normal;text-align:center;line-height:1.15;font-size:clamp(14px,1.3vw,20px);padding:8px 4px;background:#090808;color:#fff;border:1px solid #c7a45a;border-radius:3px}
@@ -102,3 +103,7 @@ body{margin:0;background:#090808}#church-preview{max-width:1500px;margin:auto;bo
 /* Use the same typography treatment as the main site. */
 #church-preview{-webkit-font-smoothing:antialiased}
 #church-preview .main-links a{letter-spacing:.055em}
+
+/* Keep room overlays out of the camera transition. */
+#church-preview .scene.changing #church-hotspots{visibility:hidden}
+@media(prefers-reduced-motion:reduce){#church-preview .room,#church-preview .room.moving{transition:none;transform:none;filter:none;opacity:1}}
