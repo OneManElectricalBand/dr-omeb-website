@@ -4,7 +4,7 @@ Static rebuild of the primary Dr. OMEB / One Man Electrical Band website for dep
 
 ## Current migration status
 
-This repository contains the Cloudflare Pages replacement for the Bandzoogle site. The primary domain remains on Bandzoogle until final cutover approval and DNS attachment.
+This repository contains the Cloudflare Pages replacement for the Bandzoogle site. The primary domain is now served by Cloudflare Pages after the September 2026 cutover.
 
 ### Included
 - Home / Rock n' Roll Church
@@ -40,4 +40,4 @@ This is a no-build static site.
 - Build command: leave blank
 - Build output directory: `/` (repository root)
 
-Attach `onemanelectricalband.com` after the final preview, link, form and redirect checks pass.
+The production domain `onemanelectricalband.com` is attached to the `main` branch. The shared `assets/js/site.js` loads GA4 measurement ID `G-6XSE2FK7YR` on every page. Confirm collection in GA4 Realtime after deployment.

@@ -37,7 +37,11 @@
           const result = await fetch(`${endpoint}/${kind}`, {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),signal:AbortSignal.timeout(35000)});
           const payload = await result.json();
           status.textContent = payload.message || 'Please try again later.';
-          if (result.ok) form.reset();
+          if (result.ok) {
+            form.reset();
+            // The signup event records an accepted request; email confirmation happens later.
+            window.gtag?.('event', kind === 'signup' ? 'newsletter_signup_requested' : 'contact_form_sent');
+          }
         } catch { status.textContent = 'We couldn’t confirm delivery. Please try again later or email hello@onemanelectricalband.com.'; }
         finally { submitting = false; token = ''; window.turnstile.reset(widget); }
       });
