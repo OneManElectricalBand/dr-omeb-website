@@ -56,3 +56,7 @@
     if (next) badge.textContent = `Next Service · ${next.label}`;
   }
 })();
+
+
+// Track entry points to the interactive Church.
+document.querySelectorAll('a[href="/rock-n-roll-church/"]').forEach(a=>a.addEventListener('click',()=>{if(window.gtag)window.gtag('event','church_entry',{entry_point:a.dataset.churchEntry||'navigation'});}));

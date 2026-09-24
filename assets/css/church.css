@@ -1,0 +1,98 @@
+body{margin:0;background:#090808}#church-preview{max-width:1500px;margin:auto;border-radius:0!important}button,a{cursor:pointer}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,800;0,900;1,900&display=swap');
+
+#church-preview{background:#0d0c0c;color:#f7ead4;font:15px/1.5 Arial,sans-serif;border-radius:10px;overflow:hidden}#church-preview *{box-sizing:border-box}#church-preview button,#church-preview a{font:inherit}#church-preview .bar{display:flex;justify-content:space-between;align-items:center;padding:16px 22px;gap:16px;border-bottom:1px solid #55422e;flex-wrap:wrap}#church-preview .brand{font-weight:800;letter-spacing:2px}#church-preview .schedule{font-size:12px;color:#dfbc7f}#church-preview .hero{padding:24px 22px 18px;display:flex;align-items:end;justify-content:space-between;gap:20px;flex-wrap:wrap;background:linear-gradient(110deg,#251c14,#0d0c0c)}#church-preview h1{font:38px/1.05 Georgia,serif;margin:4px 0 8px}#church-preview p{color:#c5b9a8;margin:8px 0}#church-preview .eyebrow{color:#e2b775;font-size:11px;letter-spacing:2px;text-transform:uppercase}#church-preview .button{display:inline-flex;align-items:center;justify-content:center;padding:10px 15px;min-height:44px;border:1px solid #b4874c;background:#e4bb77;color:#1b140b;border-radius:3px;text-decoration:none;font-weight:700}#church-preview .outline{background:#221b15;color:#f4dfba;border-color:#705637}#church-preview .scene{position:relative;aspect-ratio:16/9;overflow:hidden;background:#211a12}#church-preview .room{position:absolute;width:100%;height:100%;object-fit:cover;transition:transform .65s ease,opacity .3s ease}#church-preview .room.moving{transform:scale(1.13);opacity:.25}#church-preview .hotspot{position:absolute;transform:translate(-50%,-50%);padding:8px 12px;min-height:44px;border:1px solid #e7bd75;border-radius:3px;background:#100d0ee8;color:#fff0d7;font-size:12px;box-shadow:0 3px 15px #0009}#church-preview .hotspot:before{content:'+';color:#ffd48e;margin-right:7px}#church-preview .stage-hit{left:50%;top:70%}#church-preview .merch-hit{left:86%;top:62%}#church-preview .back-hit{left:15%;top:57%}#church-preview .join-hit{left:21%;top:87%}#church-preview .screen{position:absolute;left:43.65%;top:28.1%;width:11.7%;height:40.4%;overflow:hidden;background:#090909}#church-preview .screen img{width:100%;height:100%;object-fit:cover}#church-preview .screen .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#0002;color:white;text-decoration:none}#church-preview .play span{border:1px solid #fff8;background:#0009;border-radius:100%;width:35px;height:35px;display:grid;place-items:center}#church-preview .nav{display:flex;gap:7px;flex-wrap:wrap;padding:12px 16px;border-bottom:1px solid #453725}#church-preview .nav button{background:transparent;border:1px solid #5b4831;border-radius:3px;color:#deceb4;padding:8px 13px;min-height:44px}#church-preview .nav button[aria-pressed=true]{color:#17100a;background:#e4bb77;border-color:#e4bb77}#church-preview .detail{padding:22px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}#church-preview h2{font:29px/1.2 Georgia,serif;margin:5px 0}#church-preview .detail p{max-width:630px;font-size:14px}#church-preview .actions{display:flex;gap:10px;flex-wrap:wrap}#church-preview .caption{padding:9px 20px;background:#201b16;color:#cdbc9f;font-size:12px}#church-preview .below{padding:22px;border-top:1px solid #453725;display:grid;grid-template-columns:1fr 1fr;gap:25px}#church-preview h3{font:22px Georgia,serif;margin:0 0 8px}#church-preview .below p{font-size:14px}#church-preview details{padding:10px 0;border-bottom:1px solid #453725}#church-preview summary{min-height:30px}#church-preview [hidden]{display:none!important}@media(max-width:600px){#church-preview h1{font-size:31px}#church-preview .detail,#church-preview .below{grid-template-columns:1fr}#church-preview .hotspot{font-size:11px;padding:5px 7px;min-height:36px}#church-preview .merch-hit{left:82%}#church-preview .back-hit{left:17%}#church-preview .join-hit{left:27%}#church-preview .scene{aspect-ratio:16/9}#church-preview .room{object-fit:cover}#church-preview .nav{gap:6px;padding:10px}#church-preview .nav button{font-size:13px;padding:7px 9px}#church-preview .screen{top:28.1%;height:40.4%}}@media(prefers-reduced-motion:reduce){#church-preview .room{transition:none}}
+
+#church-preview{background:#090808;color:#f3eddd;font-family:'Barlow Condensed',Arial,sans-serif;font-size:18px}
+#church-preview h1,#church-preview h2,#church-preview h3{color:#f3eddd;font-family:'Barlow Condensed',Arial,sans-serif;font-weight:900;text-transform:uppercase}
+#church-preview h1{font-size:clamp(44px,7vw,72px);line-height:.94;letter-spacing:-.02em}
+#church-preview h1 em{display:block;color:#e8281e;font-style:italic}
+#church-preview .hero{background:#0d0b0b;padding:25px 22px}
+#church-preview .eyebrow{color:#ff6259;font-weight:800}
+#church-preview p{color:#c8bea8}
+#church-preview .button{background:#e8281e;border-color:#e8281e;color:#fff;font-family:'Barlow Condensed',Arial,sans-serif;text-transform:uppercase;letter-spacing:.07em}
+#church-preview .outline{background:#100d0d;border-color:#73685d;color:#f3eddd}
+#church-preview .bar{background:#090808;border-color:#373030;gap:12px}
+#church-preview .brand{text-decoration:none;color:#f3eddd;font-size:27px;line-height:1.05;font-weight:900}
+#church-preview .brand small{display:block;color:#ff6259;font-size:11px;letter-spacing:.15em;margin-top:5px;text-transform:uppercase}
+#church-preview .schedule{width:100%;font-size:13px;color:#c8bea8;letter-spacing:.07em}
+#church-preview .main-links{display:flex;flex-wrap:wrap;gap:5px 18px;width:100%;border-top:1px solid #373030;padding-top:10px}
+#church-preview .main-links a{display:flex;align-items:center;min-height:44px;color:#f3eddd;text-decoration:none;text-transform:uppercase;font-weight:800;font-size:16px}
+#church-preview .main-links a:hover{color:#ff6259}
+#church-preview .menu-toggle{display:none;min-height:44px;padding:8px 14px;color:#f3eddd;background:#151111;border:1px solid #73685d;text-transform:uppercase;font-weight:800}
+#church-preview .nav{border-color:#373030}
+#church-preview .nav button{border-color:#63574c;color:#f3eddd}
+#church-preview .nav button[aria-pressed=true]{background:#e8281e;border-color:#e8281e;color:#fff}
+#church-preview .caption{background:#171313;color:#c8bea8}
+#church-preview .hotspot{background:#090808ee;border-color:#b9a480;color:#f3eddd;min-height:44px}
+#church-preview .detail,#church-preview .below{background:#0d0b0b;border-color:#373030}
+#church-preview summary{color:#f3eddd}
+@media(max-width:650px){#church-preview .menu-toggle{display:block}#church-preview .main-links{display:none;grid-template-columns:1fr 1fr;gap:3px 15px}#church-preview .main-links.open{display:grid}#church-preview .schedule{font-size:12px}#church-preview .hotspot{font-size:11px;min-height:44px;padding:5px 7px}#church-preview .join-hit{left:24%;top:87%}#church-preview .stage-hit{left:51%;top:63%}#church-preview .back-hit{left:15%;top:43%}#church-preview .merch-hit{left:83%;top:60%}}
+#church-preview .stage-hit{left:51%;top:79%}
+
+#church-preview .screen{left:47.05%;top:45.7%;width:5.65%;height:15.9%;display:block;transition:all .5s ease;background:#080808;pointer-events:none}
+#church-preview .screen video{width:100%;height:100%;object-fit:contain;display:block}
+#church-preview[data-room="stage"] .screen{left:43.65%;top:28.1%;width:11.7%;height:40.4%}
+#church-preview[data-room="merch"] .screen,#church-preview[data-room="backstage"] .screen,#church-preview[data-room="lounge"] .screen{visibility:hidden}
+#church-preview .playback{padding:10px 18px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:#090808}
+#church-preview .playback button{min-height:44px;background:#211b19;color:#f3eddd;border:1px solid #6b5c4a;padding:8px 15px;font:inherit}
+#church-preview .playback span{font-size:13px;color:#c8bea8}
+#church-preview .product-target{position:absolute;top:45%;height:25%;width:10%;z-index:2;border:2px solid transparent}
+#church-preview .product-target:hover,#church-preview .product-target:focus-visible{border-color:#e4bb77}
+#church-preview .product-target span{position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#090808e8;color:#f3eddd;padding:3px 7px;font-size:11px;white-space:nowrap}
+#church-preview .art-target{position:absolute;top:29.4%;width:9.3%;height:16.7%;z-index:2;background:#14100c;display:flex;align-items:center;justify-content:center}
+#church-preview .art-target img{width:100%;height:100%;object-fit:contain}
+#church-preview .shop-list{padding:0 22px 22px;display:flex;gap:10px;flex-wrap:wrap}
+#church-preview .shop-list a{color:#f3eddd;padding:8px 12px;border:1px solid #6b5c4a;min-height:44px;text-decoration:none}
+@media(prefers-reduced-motion:reduce){#church-preview .screen{transition:none}}
+
+/* Responsive layout refinement */
+#church-preview .bar{padding:10px 22px;flex-wrap:nowrap;gap:24px}
+#church-preview .brand{flex-shrink:0}
+#church-preview .main-links{width:auto;flex:1;border:0;padding:0;justify-content:center;gap:16px;flex-wrap:nowrap}
+#church-preview .schedule{width:auto;max-width:180px;font-size:12px}
+#church-preview .hero{padding:16px 22px;align-items:center;flex-wrap:nowrap}
+#church-preview h1{font-size:clamp(36px,4.5vw,64px);line-height:1.05;margin:5px 0}
+#church-preview h1 em{display:inline}
+#church-preview .hero p{margin:4px 0}
+#church-preview .hero>.button{flex-shrink:0}
+#church-preview .hotspot{font-size:clamp(16px,1.65vw,24px);padding:12px 20px;min-height:56px;font-weight:800}
+#church-preview .nav{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;padding:16px 22px}
+#church-preview .nav button{min-height:62px;font-size:clamp(18px,1.7vw,25px);font-weight:800;padding:10px 16px}
+#church-preview .screen{left:47.05%;top:45.1%;width:5.65%;height:auto;aspect-ratio:9/16;transition:none;background:transparent;z-index:1}
+#church-preview[data-room="stage"] .screen{left:43.1%;top:28.1%;width:12.8%;height:auto;aspect-ratio:9/16}
+#church-preview .screen video{width:100%;height:100%;object-fit:contain}
+#church-preview .room{transition:opacity .2s ease;transform:none!important}
+#church-preview .scene.changing .screen,#church-preview .scene.changing #product-links,#church-preview .scene.changing #art-links,#church-preview .scene.changing .community-board{visibility:hidden}
+#church-preview .product-target{top:42%;height:29%;width:11%}
+#church-preview .product-target span{top:100%;width:100%;min-height:44px;white-space:normal;text-align:center;line-height:1.15;font-size:clamp(14px,1.3vw,20px);padding:8px 4px;background:#090808;color:#fff;border:1px solid #c7a45a;border-radius:3px}
+#church-preview .shop-list{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+#church-preview .shop-list a{display:flex;align-items:center;justify-content:center;text-align:center;font-size:20px;min-height:58px;background:#211918}
+#church-preview .art-target{overflow:hidden}
+#church-preview .art-target img{object-fit:contain;object-position:center}
+#church-preview .community-board{display:none;position:absolute;left:32%;top:28.5%;width:35.5%;height:21%;z-index:2;text-align:center;flex-direction:column;align-items:center;justify-content:center;padding:8px}
+#church-preview[data-room="lounge"] .community-board{display:flex}
+#church-preview .community-board h2{font-size:clamp(20px,2.6vw,38px);margin:0;line-height:1.1}
+#church-preview .community-board p{font-size:clamp(14px,1.45vw,21px);margin:5px 0;color:#f3eddd}
+#church-preview .community-board a{color:#ff8c80;font-weight:800;font-size:clamp(16px,1.6vw,23px);min-height:44px;display:flex;align-items:center}
+#church-preview .community-content{display:none;padding:24px;gap:24px;grid-template-columns:repeat(3,1fr);background:#171212;border-top:1px solid #514034}
+#church-preview[data-room="lounge"] .community-content{display:grid}
+#church-preview .community-content h3{font-size:26px}
+#church-preview .community-content p{font-family:Arial,sans-serif;font-size:16px;line-height:1.6}
+#church-preview a:focus-visible,#church-preview button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:1100px){#church-preview .schedule{display:none}#church-preview .main-links{gap:12px}#church-preview .hero>.button{font-size:16px}}
+@media(max-width:760px){#church-preview .bar{flex-wrap:wrap;justify-content:space-between;padding:12px 16px;gap:10px}#church-preview .menu-toggle{display:block}#church-preview .main-links{display:none;width:100%;flex-basis:100%}#church-preview .main-links.open{display:grid;grid-template-columns:1fr 1fr}#church-preview .main-links a{font-size:18px}#church-preview .hero{padding:16px;flex-wrap:wrap;gap:10px}#church-preview h1{font-size:clamp(30px,7.6vw,54px)}#church-preview .hero>.button{min-height:44px}#church-preview .hotspot{font-size:14px;padding:7px 10px;min-height:44px}#church-preview .nav{display:flex;flex-wrap:wrap;padding:12px;gap:8px}#church-preview .nav button{flex:1 1 28%;font-size:18px;min-height:48px;padding:8px}#church-preview .product-target span{display:none}#church-preview .shop-list{grid-template-columns:1fr 1fr;padding:0 16px 16px}#church-preview .shop-list a{font-size:18px}#church-preview .community-board h2{font-size:clamp(12px,3vw,22px)}#church-preview .community-board p{font-size:clamp(10px,2vw,16px);margin:2px 0}#church-preview .community-board a{display:none}#church-preview .community-content{grid-template-columns:1fr;padding:20px;gap:18px}}
+
+#church-preview .release-list{display:none;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:0 22px 22px;background:#0d0b0b}
+#church-preview[data-room="backstage"] .release-list{display:grid}
+#church-preview .release-list a{display:flex;flex-direction:column;justify-content:space-between;gap:10px;padding:14px;min-height:88px;border:1px solid #73685d;background:#211918;color:#f3eddd;text-decoration:none;font-size:20px;line-height:1.2}
+#church-preview .release-list small{color:#ff8c80;font-size:15px}
+@media(max-width:760px){#church-preview .release-list{grid-template-columns:1fr 1fr;padding:0 16px 16px}#church-preview .release-list a{font-size:18px}}
+
+.church-skip{position:absolute;left:-9999px}.church-skip:focus{left:12px;top:12px;z-index:20;padding:10px;background:#fff;color:#000}
+#church-preview .main-links a[aria-current="page"]{color:#ff6259}
+#church-preview .main-links a{white-space:nowrap}
+@media(max-width:1200px){#church-preview .bar{flex-wrap:wrap;justify-content:space-between}#church-preview .menu-toggle{display:block}#church-preview .main-links{display:none;width:100%;flex-basis:100%}#church-preview .main-links.open{display:grid;grid-template-columns:1fr 1fr}#church-preview .schedule{display:none}}
+@media(min-width:1201px){#church-preview .main-links{gap:12px}#church-preview .main-links a{font-size:15px}#church-preview .schedule{display:none}}
+@media(max-width:380px){#church-preview .hotspot{font-size:12px;padding:6px}#church-preview .main-links a{white-space:normal}}
