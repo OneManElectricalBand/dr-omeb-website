@@ -41,7 +41,8 @@ expected = {
     '/track/4837303': '/music/#symptom-of-the-universe',
     '/blogs/diary-of-a-rock-n-roll-doctor.rss': '/blog/feed.xml',
     '/blog/blog_posts': '/blog/',
-    '/blog/blog/7334700/deck-the-war-pigs-a-christmas-parody': '/music/#deck-the-war-pigs',
+    '/blog/blog/7334700/deck-the-war-pigs-a-christmas-parody': '/blog/deck-the-war-pigs-a-christmas-parody/',
+    '/blogs/diary-of-a-rock-n-roll-doctor/posts/deck-the-war-pigs-a-christmas-parody/deck-the-war-pigs-a-christmas-parody': '/blog/deck-the-war-pigs-a-christmas-parody/',
     '/blogs/diary-of-a-rock-n-roll-doctor/posts/7762077/your-brand-is-losing-a-war-for-attention-kiss-figured-out-how-to-win-it-50-years-ago': '/blog/kiss-war-for-attention/',
 }
 for source, destination in expected.items():
